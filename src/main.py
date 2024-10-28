@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from add import add
+from add import add, minus
 
 app = Flask(__name__)
 
